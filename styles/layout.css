@@ -1,1 +1,95 @@
+body {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    height: 100vh;
+    overflow: hidden;
+}
 
+#name, #portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0.2 1 auto;
+}
+
+#name p {
+    transform: rotate(-90deg);
+}
+
+#portfolio p {
+    transform: rotate(-90deg);
+}
+
+/* navigation */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+li {
+    display: inline;
+}
+
+hr {
+    display: inline;
+    border: 1px solid black;
+    margin: 1px 4px 1px 1px
+}
+
+/* content */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    flex: 1 1 auto;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.infoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+    gap: 20px;
+}
+
+.imgContainer, .info {
+    flex: 1 1 auto;
+}
+
+#socialMedia {
+    align-self: flex-end;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    width: 300px;
+    z-index: 6;
+}
+
+.fa {
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-instagram {
+    background: none;
+    color: #000000;
+  }
