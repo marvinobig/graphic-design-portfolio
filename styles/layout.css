@@ -45,7 +45,7 @@ main {
     justify-content: space-between;
     flex: 1 1 auto;
     gap: 20px;
-    overflow-y: hidden;
+    overflow-y: scroll;
     scroll-behavior: smooth;
 }
 
