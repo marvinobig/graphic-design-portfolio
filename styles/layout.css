@@ -1,3 +1,4 @@
+/* main body */
 body {
     display: flex;
     flex: 1 1 auto;
@@ -26,8 +27,12 @@ body {
 nav {
     display: flex;
     justify-content: flex-end;
-    border-bottom: 1px solid black;
+    align-items: center;
     padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 6;
+    flex: 1 1 auto;
 }
 
 li {
@@ -36,7 +41,6 @@ li {
 
 hr {
     display: inline;
-    border: 1px solid black;
     margin: 1px 4px 1px 1px
 }
 
@@ -45,8 +49,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
     flex: 1 1 auto;
     overflow-y: scroll;
     scroll-behavior: smooth;
@@ -56,7 +58,7 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 40px;
 }
@@ -64,21 +66,39 @@ main {
 .infoContainer {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex: 1 1 auto;
     gap: 20px;
 }
 
-.imgContainer, .info {
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     flex: 1 1 auto;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    flex: 1 1 auto;
+    padding: 30px 20px 0px 20px;
+    align-self: stretch;
+}
+
+img {
+    height: auto;
+    width: 300px;
+}
+
+/* social media */
 #socialMedia {
     align-self: flex-end;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     right: 10px;
-    width: 300px;
+    width: 190px;
     z-index: 6;
 }
 
