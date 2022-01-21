@@ -1,1 +1,44 @@
+/* main body */
+#name p, #portfolio p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder; 
+    font-size: 7vw;
+    letter-spacing: 10px;
+    writing-mode: sideways-lr;
+}
+
+main {
+    border-right: 1px solid #0000004f;
+    border-left: 1px solid #0000004f;
+}
+
+/* navigation */
+nav {
+    font-family: 'Oswald', sans-serif; 
+    font-size: 3vw;
+    background-color: #ffffff;
+}
+
+hr {
+    border: 1px solid #0000004f;
+}
+
+/* content */
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; 
+    font-size: 4vw;
+}
+
+.info h2{
+    word-wrap: break-word;
+    font-family: 'Oswald', sans-serif; 
+    font-size: 5vw;
+}
+
+.info p {
+    word-wrap: break-word;
+    font-family: 'Oswald', sans-serif; 
+    font-size: 1.8vw;
+}
 
