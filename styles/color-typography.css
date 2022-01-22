@@ -4,7 +4,7 @@
     font-weight: bolder; 
     font-size: 7vw;
     letter-spacing: 10px;
-    writing-mode: sideways-lr;
+    transform: rotate(-90deg);
 }
 
 main {
