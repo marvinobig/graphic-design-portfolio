@@ -19,6 +19,7 @@
     a {
         text-decoration: none;
         color: #000000;
+        font-size: 5vw;
     }
 
     hr {
@@ -32,8 +33,13 @@
 
     }
 
+    #nav-title {
+        font-size: 8vw;
+        font-weight: bold;
+    }
+
     #hamburger {
-        font-size: 30px;
+        font-size: 8vw;
         font-weight: bolder;
         background: none;
         border: hidden;
@@ -60,6 +66,17 @@
     
     .info p {
         font-size: 4vw;
+    }
+
+    .imgCount p {
+        display: inline;
+        font-size: 8vw;
+    }
+    
+    .left, .right {
+        background: none;
+        border: hidden;
+        font-size: 8vw;
     }
     
 }

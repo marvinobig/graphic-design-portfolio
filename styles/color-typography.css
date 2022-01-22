@@ -60,3 +60,13 @@ hr {
     font-size: 1.8vw;
 }
 
+.left, .right {
+    background: none;
+    border: hidden;
+    font-size: 2vw;
+}
+
+.imgCount p {
+    font-size: 2vw;
+}
+
