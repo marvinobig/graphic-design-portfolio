@@ -38,6 +38,10 @@ hr {
     margin: 1px 8px 1px 1px
 }
 
+#mobile {
+    display: none;
+}
+
 /* content */
 main {
     display: flex;
