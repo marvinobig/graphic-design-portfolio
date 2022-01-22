@@ -67,7 +67,7 @@ a {
 
 .imgCount p {
     font-family: 'Oswald', sans-serif;
-    font-size: 2vw;
+    font-size: 1.8vw;
 }
 
 .fa-arrow-left, .fa-arrow-right {
@@ -80,4 +80,15 @@ a {
 
 .fa-arrow-right:hover {
     color: #6d4141;
+}
+
+/* social media */
+#socialMedia {
+    background-color: brown;
+    border-radius: 2rem;
+}
+
+.fa-instagram {
+    background: none;
+    color: #000000;
 }

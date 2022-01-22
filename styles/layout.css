@@ -48,7 +48,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     flex: 1 1 auto;
-    gap: 20px;
+    gap: 60px;
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
@@ -115,10 +115,14 @@ img {
 #socialMedia {
     align-self: flex-end;
     position: sticky;
-    bottom: 0;
+    bottom: 10px;
     right: 10px;
     width: 190px;
     z-index: 6;
+}
+
+#socialMedia a:hover {
+    color: #ffffff;
 }
 
 .fa {
@@ -128,9 +132,7 @@ img {
 }
 
 .fa-instagram {
-    padding: 20px;
-    background: none;
-    color: #000000;
+    padding: 10px;
 }
 
 .fa-arrow-left, .fa-arrow-right {

@@ -11,6 +11,10 @@
         gap: 10px;
     }
 
+    ul {
+        display: none;
+    }
+
     li {
         display: block;
         padding: 10px;
@@ -81,5 +85,11 @@
         background: none;
         border: hidden;
     }
-    
+
+    /* social media */
+    #socialMedia {
+        background-color: brown;
+        border-radius: 2rem;
+        right: 0px;
+    }
 }
