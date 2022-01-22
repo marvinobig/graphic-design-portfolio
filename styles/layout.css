@@ -29,6 +29,10 @@ nav {
     flex: 1 1 auto;
 }
 
+#mobileNavContainer {
+    display: none;
+}
+
 li {
     display: inline;
 }
@@ -36,10 +40,6 @@ li {
 hr {
     display: inline;
     margin: 1px 8px 1px 1px
-}
-
-#mobile {
-    display: none;
 }
 
 /* content */
@@ -94,7 +94,9 @@ main {
 
 img {
     height: auto;
-    max-width: 360px;
+    width: 100%;
+    max-width: 400px;
+    min-width: 344px;
 }
 
 .slideControls {
