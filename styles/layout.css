@@ -104,8 +104,10 @@ img {
     flex: 1 1 auto;
 }
 
-.imgCount p {
-    display: inline;
+.imgCount{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
 }
 
 
@@ -120,13 +122,17 @@ img {
 }
 
 .fa {
-    padding: 20px;
     width: 50px;
     text-align: center;
     text-decoration: none;
 }
 
 .fa-instagram {
+    padding: 20px;
     background: none;
     color: #000000;
-  }
+}
+
+.fa-arrow-left, .fa-arrow-right {
+    padding: 10px;
+}

@@ -23,6 +23,11 @@ hr {
     border: 1px solid #0000004f;
 }
 
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
 /* scrollbar */
 ::-webkit-scrollbar {
     width: 5px;
@@ -45,7 +50,7 @@ hr {
 .title {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold; 
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 .info h2{
@@ -60,13 +65,19 @@ hr {
     font-size: 1.8vw;
 }
 
-.left, .right {
-    background: none;
-    border: hidden;
-    font-size: 2vw;
-}
-
 .imgCount p {
+    font-family: 'Oswald', sans-serif;
     font-size: 2vw;
 }
 
+.fa-arrow-left, .fa-arrow-right {
+    font-size: 2.6vw;
+}
+
+.fa-arrow-left:hover {
+    color: #6d4141;
+}
+
+.fa-arrow-right:hover {
+    color: #6d4141;
+}

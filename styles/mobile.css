@@ -68,15 +68,18 @@
         font-size: 4vw;
     }
 
+    .title {
+        font-size: 5vw;
+    }
+
     .imgCount p {
         display: inline;
-        font-size: 8vw;
+        font-size: 4vw;
     }
     
     .left, .right {
         background: none;
         border: hidden;
-        font-size: 8vw;
     }
     
 }
