@@ -25,7 +25,7 @@ hr {
 
 /* scrollbar */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
 }
   
 ::-webkit-scrollbar-track {
@@ -34,7 +34,7 @@ hr {
 
 ::-webkit-scrollbar-thumb {
     background: #0000004f;
-    border-radius: 50%;
+    border-radius: 2x;
 }
   
 ::-webkit-scrollbar-thumb:hover {
