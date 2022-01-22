@@ -1,5 +1,9 @@
 @media only screen and (max-width: 720px){
     /* main body */
+    main {
+        gap: 0px;
+    }
+
     #name, #portfolio {
         display: none;
     }
@@ -66,10 +70,13 @@
 
     .info h2{
         font-size: 8vw;
+        text-align: center;
+        word-wrap: break-word;
     }
     
     .info p {
         font-size: 4vw;
+        word-wrap: break-word;
     }
 
     .title {
