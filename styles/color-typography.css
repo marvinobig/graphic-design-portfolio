@@ -76,6 +76,7 @@ a:hover {
     font-family: 'Oswald', sans-serif; 
     font-size: 1.8vw;
     color: var(--textColor);
+    line-height: 30px;
 }
 
 .imgCount p {
