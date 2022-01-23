@@ -93,11 +93,6 @@
         display: inline;
         font-size: 4vw;
     }
-    
-    .left, .right {
-        background: none;
-        border: hidden;
-    }
 
     /* social media */
     #socialMedia {

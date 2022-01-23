@@ -2,7 +2,7 @@
 #name p, #portfolio p {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder; 
-    font-size: 7vw;
+    font-size: 6.4vw;
     letter-spacing: 10px;
     transform: rotate(-90deg);
 }
@@ -15,7 +15,7 @@ main {
 /* navigation */
 nav {
     font-family: 'Oswald', sans-serif; 
-    font-size: 3vw;
+    font-size: 2vw;
     background-color: #ffffff;
 }
 

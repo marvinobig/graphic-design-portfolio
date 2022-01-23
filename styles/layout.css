@@ -61,6 +61,7 @@ main {
     gap: 20px;
     padding: 10px 40px 40px 40px;
     flex: 1 1 auto;
+    margin-bottom: 50px;
 }
 
 .title {
