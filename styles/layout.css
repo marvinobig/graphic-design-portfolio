@@ -96,8 +96,8 @@ main {
 img {
     height: auto;
     width: 100%;
-    max-width: 400px;
-    min-width: 344px;
+    max-width: 780px;
+    min-width: 320px;
 }
 
 .slideControls {
