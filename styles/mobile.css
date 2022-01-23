@@ -33,7 +33,7 @@
 
     a {
         text-decoration: none;
-        color: #000000;
+        color: rgba(70, 65, 65, 0.885);
         font-size: 4vw;
     }
 
@@ -45,12 +45,12 @@
         display: flex;
         align-items: center;
         gap: 20px;
-
     }
 
     #nav-title {
         font-size: 8vw;
         font-weight: bold;
+        color: rgba(70, 65, 65, 0.885);
     }
 
     #hamburger {
@@ -58,6 +58,7 @@
         font-weight: bolder;
         background: none;
         border: hidden;
+        color: rgba(70, 65, 65, 0.885);
     }
 
     /* content */
@@ -96,7 +97,7 @@
 
     /* social media */
     #socialMedia {
-        background-color: brown;
+        background-color: rgba(70, 65, 65, 0.885);
         border-radius: 2rem;
         right: 0px;
     }
