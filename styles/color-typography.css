@@ -60,14 +60,14 @@ a:hover {
 .title {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold; 
-    font-size: 3vw;
+    font-size: 4vw;
     color: var(--textColor);
 }
 
 .info h2{
     word-wrap: break-word;
     font-family: 'Oswald', sans-serif; 
-    font-size: 4vw;
+    font-size: 3vw;
     color: var(--textColor);
 }
 
