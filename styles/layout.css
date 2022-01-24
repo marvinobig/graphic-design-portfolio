@@ -97,6 +97,10 @@ img {
     height: auto;
     width: 100%;
     max-width: 780px;
+    min-width: 520px;
+}
+
+#simona {
     min-width: 320px;
 }
 
